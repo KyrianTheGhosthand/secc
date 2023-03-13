@@ -10,10 +10,10 @@ import java.util.Optional;
 public abstract class UserDAO implements DAO<User>{
     private List<User> users = new ArrayList<>();
 
-//    public UserDAO(){
-//        users.add(new User("a1", "1234"));
-//        users.add(new User("a2", "5678"));
-//    }
+    public UserDAO(){
+        users.add(new User("a1", "1234"));
+        users.add(new User("a2", "5678"));
+    }
 @Override
 public Optional<User> get(long id) {
     return Optional.ofNullable(users.get((int) id));
