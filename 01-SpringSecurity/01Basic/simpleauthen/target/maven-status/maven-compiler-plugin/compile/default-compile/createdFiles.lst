@@ -1,0 +1,4 @@
+vn\techmaster\simpleauthen\model\Product.class
+vn\techmaster\simpleauthen\controller\APIController.class
+vn\techmaster\simpleauthen\security\SecurityConfig.class
+vn\techmaster\simpleauthen\SimpleauthenApplication.class
